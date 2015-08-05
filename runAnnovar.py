@@ -1,4 +1,3 @@
-#!/opt/sw/software/Python/2.7.3-GCC-4.1.2/bin/python
 import sys
 import subprocess
 import re
@@ -85,9 +84,9 @@ def getHrun(x):
 
 
 #Setting to variables all of the needed paths for the files and scripts used when calling Annovar
-database="/cluster/ifs/projects/Annotation/hg19/annovar_db"
-annovar_script="/usr/local/gtb/vendor/bin/annotate_variation.pl"
-conversion_script="/usr/local/gtb/vendor/bin/convert2annovar.pl"
+database="/cluster/directoy/location/annovar_db"
+annovar_script="/usr/directory/location/annotate_variation.pl"
+conversion_script="/usr/directory/location/convert2annovar.pl"
 
 #Subprocess call for converting the filtered vcf files that contain lofreq variants into the correct format for Annovar
 id = captureName(sample)
