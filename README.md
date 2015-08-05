@@ -10,7 +10,7 @@ Clonal Hematopoiesis is the clonal expansion of hematopoietic stem cells, which 
 
 WORKFLOW
 
-![al text](http://Users/dahlia-shvets/Desktop/NIH-CH/All_Project_Code/WORKFLOW.pdf?raw=true)
+![al text](http://Users/dahlia-shvets/Desktop/NIH-CH/All_Project_Code/Workflow.png)
 
 
 
