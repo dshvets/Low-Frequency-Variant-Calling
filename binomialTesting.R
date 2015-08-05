@@ -1,4 +1,7 @@
-#This script takes a command line input file, performs a binomial hypothesis test on the null hypothesis that the true allelic fraction is 50%. This is done in order to separate germline variants from somatic variants. Once p-values have been calculated for the binomial test for every variant in the file, multi-test correction is done using Benjamini-Hochberg. The final file now has two new columns, one containing the binomial test p-value, the other containing the corrected BH p-value. 
+#This script takes a command line input file, performs a binomial hypothesis test on the null hypothesis that the true allelic fraction is 50%. 
+#This is done in order to separate germline variants from somatic variants. 
+#Once p-values have been calculated for the binomial test for every variant in the file, multi-test correction is done using Benjamini-Hochberg. 
+#The final file now has two new columns, one containing the binomial test p-value, the other containing the corrected BH p-value. 
 
 fullName <- commandArgs(trailingOnly=TRUE)
 
